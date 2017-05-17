@@ -109,7 +109,7 @@ function plugin_table_edit2_convert()
 	// open or close
 	if ($opt['table_mod'] != 'off' && $opt['edit'] != 'off') {
 		if ( isset($opt['csv']) ) $tei->csv_button($opt['csv']);
-		$head_button = $tei->open_close($opt['table_mod'],& $opt['edit']);
+		$head_button = $tei->open_close($opt['table_mod'], $opt['edit']);
 	}
 
 	$arg = preg_replace(array("[\\r|\\n]","[\\r]"), array("\n","\n"), $arg);
@@ -509,7 +509,7 @@ class TableEdit2Indicate
 		$this->page = $page;
 		$this->count = $count;
 	}
-	function open_close( $mode, $edit )
+	function open_close( $mode, &$edit )
 	{
 		$s_table_close = _('close');
 		$s_table_open  = _('open');
@@ -1729,7 +1729,7 @@ class TableEdit2CsvAction
 		if ($this->error) return $file_error;
 	
 
-		$obj = & new TableEdit2CsvConversion($page, $file, $opt['charset_in'], 'import');
+		$obj = new TableEdit2CsvConversion($page, $file, $opt['charset_in'], 'import');
 
 		$csv_source = array();
 		$fp = @fopen($file['tmp_name'], 'r');
@@ -1764,7 +1764,7 @@ class TableEdit2CsvAction
 		$opt_name = $opt['charset_out'] . $opt['end_of_line'] . $opt_name;
 		$file['name'] = 'table_data' . $opt['table_num'] . '_' . $opt_name . '.csv';
 	
-		$obj = & new TableEdit2CsvConversion($page, $file, SOURCE_ENCODING, 'export');
+		$obj = new TableEdit2CsvConversion($page, $file, SOURCE_ENCODING, 'export');
 
 		$obj->w_quote =  $opt['w_quote'];
 		if ( strpos($opt['column_w_q'], ',') === FALSE ) {
