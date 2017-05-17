@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: table_edit2.inc.php ver1.2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-06-29 23:57+0900\n"
+"Last-Translator: taru <taru@s223.xrea.com>\n"
+"Language-Team: taru <taru@s223.xrea.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "close"
+msgstr "編集モード解除"
+
+msgid "open"
+msgstr "編集モード"
+
+msgid "addition"
+msgstr "追加"
+
+msgid "edit"
+msgstr "編集"
+
+msgid "OK"
+msgstr "編集内容を更新"
+
+msgid "cancel"
+msgstr "キャンセル"
+
+msgid "delete"
+msgstr "削除"
+
+msgid "no time stamp"
+msgstr "タイムスタンプを変更しない"
+
+msgid "table"
+msgstr "テーブル№"
+
+msgid "line"
+msgstr "行番号"
+
+msgid "column line"
+msgstr "列番号"
+
+msgid " [Add Mode]"
+msgstr "　［追加モード］"
+
+msgid "no"
+msgstr "いいえ"
+
+msgid "character"
+msgstr "文字だけ括る"
+
+msgid "column"
+msgstr "列を指定する"
+
+msgid "w quote"
+msgstr "ダブルクォート"
+
+msgid "column number"
+msgstr "列番号を指定"
+
+msgid "line feed code"
+msgstr "改行コード"
+
+msgid "cannot upload"
+msgstr "ファイルをアップロード出来ませんでした"
+
+msgid "Please upload it by a POST."
+msgstr "POSTでアップロードして下さい。"
+
+#: 1
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr "アップロードされたファイルは、php.ini の upload_max_filesize ディレクティブの値を超えています"
+
+#: 2
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form."
+msgstr "アップロードされたファイルは、HTML フォームで指定された MAX_FILE_SIZE を超えています。"
+
+#: 3
+msgid "The uploaded file was only partially uploaded."
+msgstr "アップロードされたファイルは一部のみしかアップロードされていません。"
+
+#: 4
+msgid "No file was uploaded."
+msgstr "ファイルはアップロードされませんでした。"
+
+#: 6
+msgid "Missing a temporary folder."
+msgstr "テンポラリフォルダがありません。"
+
+msgid "A file unlike text was uploaded."
+msgstr "textとは違うファイルがアップされました。"
+
+msgid "character code in"
+msgstr "アップロード文字コード"
+
+msgid "character code out"
+msgstr "出力文字コード"
+
+msgid "import"
+msgstr "インポート"
+
+msgid "export"
+msgstr "エクスポート"
+
+msgid "back"
+msgstr "戻る"
+
+msgid "ref plugin is not found"
+msgstr "refプラグインが見つかりません。"
+
+msgid "download"
+msgstr "ダウンロード"
+
