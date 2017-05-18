@@ -3,6 +3,12 @@ table_edit2
 
 [taruのメモ帳ページ](http://taru.s223.xrea.com/index.php?PukiWiki%2Fmake%2Ftable_edit2.inc.php)で公開されている table_edit2 のフォークです。
 
+インストール (PukiWiki 1.5.1)
+-----------------------------
+1. table_edit2.inc.php を /plugin にコピー
+2. plus を /image にコピー
+3. pukiwiki.ini.php 内の `define('PKWKEXP_DISABLE_MULTILINE_PLUGIN_HACK', 1)` を `0` に変更する
+
 使い方
 ------
 [オリジナルのページ](http://taru.s223.xrea.com/index.php?PukiWiki%2Fmake%2Ftable_edit2.inc.php)をご覧ください。
